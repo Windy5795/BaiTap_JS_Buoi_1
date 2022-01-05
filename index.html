@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaiTap_JS_Buoi_1</title>
+</head>
+
+<body>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <form>
+                <p>Giá USD hiện nay:</p>
+                <input type="text" class="form-control" id="giausd" value="23500">
+                <div class="form-group">
+                    <p>Muốn tính bao nhiêu usd?</p>
+                    <input type="number" class="form-control" id="inputusd" placeholder="Nhập số usd">
+                </div>
+                <button onclick="soTien()" type="button" class="btn btn-success" id="btnCalc">Tính nào</button>
+                <p id="sotien"></p>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <form>
+                <p>CHiều dài là:</p>
+                <input type="text" class="form-control" id="chieudai">
+                <p>Chiều rộng là:</p>
+                <input type="text" class="form-control" id="chieurong">
+                <div>
+                    <button onclick="chuVi()" type="button" class="btn btn-success" id="btnCalc">Tính chu vi</button>
+                    <p id="chuvi"></p>
+                </div>
+                <div>
+                    <button onclick="dienTich()" type="button" class="btn btn-primary" id="btnCalc">Tính diện
+                        tích</button>
+                    <p id="dientich"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <p>Số nguyên dương:</p>
+            <input type="number" class="form-control" id="nhapso">
+            <div>
+                <button onclick="tinhTong()" type="button" class="btn btn-primary" id="btnCalc">
+                    Tính nào!
+                </button>
+                <p id="ketqua"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
